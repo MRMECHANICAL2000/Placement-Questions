@@ -33,6 +33,7 @@ final_links.append(links[0])
 #print(final_links)
 
 """
+#This solution solves only 12 test cases
 for i in range(len(final_links)):
 	x=final_links[i][1:]
 	x=x[::-1]
@@ -56,6 +57,8 @@ for i in range(len(final_links)):
 			total_water+=cluster[j][1]*cluster[j][3]
 		#print(total_water)
 print(total_water)"""
+
+#this solution solves all 14 test cases
 for i in range(len(final_links)):
 	x=final_links[i][1:]
 	x=x[::-1]
