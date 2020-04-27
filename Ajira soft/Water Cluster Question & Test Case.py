@@ -11,6 +11,24 @@ Calculate the minimum water needed to help the civilizations survive for n days.
 Input is multiline. First line is the number of days to survive. Second line the number of clusters followed by their definitions. Next is the number of links in the system, followed by the link definition.
 Read the test cases to understand the scenarios better.
 
+Cluster defintion
+C1 100 300
+here
+
+C1 - cluster name
+100 - daily water need
+300 - storage capacity.
+
+Link definition
+F_C1
+here
+
+F - is the federal source of pipe
+C - is the sink/destination of pipe (cluster tank)
+Clusters don’t share water that was allocated to them with others, but water from federal body flows through them if needed.
+
+Input
+
 Test Case:1
 	3
 	4 
